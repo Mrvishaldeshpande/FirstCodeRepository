@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="FirstTest">
+<test name="anyname1">
+
+<parameter name ="username" value= "Admin" />
+<parameter name ="password" value ="admin123" />
+<classes>
+
+<class name ="Testing.Test1"/>
+<class name ="Testing.Test2"/>
+<class name ="Testing.TestCase3"/>
+<class name ="Testing.TestCase4"/>
+<class name ="TestingParameter"/>
+
+</classes>
+</test>
+</suite>

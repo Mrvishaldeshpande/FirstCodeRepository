@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13866" started-at="2020-04-09T15:02:48Z" finished-at="2020-04-09T15:03:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13866" started-at="2020-04-09T15:02:48Z" finished-at="2020-04-09T15:03:02Z">
+      <class name="Testing.TestingParameter">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Testing.TestingParameter@4520ebad]" name="test" duration-ms="13824" started-at="2020-04-09T20:32:48Z" finished-at="2020-04-09T20:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Testing.TestingParameter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
