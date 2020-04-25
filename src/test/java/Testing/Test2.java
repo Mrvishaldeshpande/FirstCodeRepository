@@ -1,16 +1,14 @@
 package Testing;
 
-import org.testng.annotations.Test;
-
-
-import Base.Base;
-import Base.ReadProperties;
-import utility.Popup;
-import utility.Validation;
-
-import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.*;
+
+
+import Base.ReadProperties;
+import utility.*;
+
+import Base.*;
+
 
 public class Test2 extends Base{
 	

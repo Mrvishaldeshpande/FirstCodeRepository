@@ -9,8 +9,7 @@
 <class name ="Testing.Test1"/>
 <class name ="Testing.Test2"/>
 <class name ="Testing.TestCase3"/>
-<class name ="Testing.TestCase4"/>
-<class name ="TestingParameter"/>
+<class name ="Testing.TestingParameter"/>
 
 </classes>
 </test>

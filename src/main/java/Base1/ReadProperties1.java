@@ -1,15 +1,15 @@
-package Base;
+package Base1;
 
 import java.io.File;
 import java.io.FileInputStream;
 
 import java.util.Properties;
 
-public class ReadProperties extends Base {
+public class ReadProperties1 extends Base1 {
 	
 	
 	
-	public  ReadProperties () throws Exception 
+	public  ReadProperties1 () throws Exception 
 	{
 		//File path store in f variable object
 		File f= new File("E:\\Eclipse Backup\\eclpise_data\\eclipse-workspace\\TestNG\\src\\main\\java\\Base\\Base.properties");
@@ -27,7 +27,7 @@ public class ReadProperties extends Base {
 	public static void geturl() 
 	{
 		try {
-			ReadProperties r = new ReadProperties();
+			ReadProperties1 r = new ReadProperties1();
 			r.toString();
 		
 		} catch (Exception e) {

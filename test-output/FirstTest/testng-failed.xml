@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirstTest]">
+  <parameter name="password" value="admin123"/>
+  <parameter name="username" value="Admin"/>
+  <test name="anyname1(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="Testing.TestCase3">
+        <methods>
+          <include name="quite"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Testing.TestCase3 -->
+      <class name="Testing.Test1">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Testing.Test1 -->
+      <class name="Testing.Test2">
+        <methods>
+          <include name="Launchchrome"/>
+          <include name="testing"/>
+        </methods>
+      </class> <!-- Testing.Test2 -->
+      <class name="Testing.TestCase4">
+        <methods>
+          <include name="quit"/>
+          <include name="test1"/>
+          <include name="imageValidation"/>
+        </methods>
+      </class> <!-- Testing.TestCase4 -->
+    </classes>
+  </test> <!-- anyname1(failed) -->
+</suite> <!-- Failed suite [FirstTest] -->
